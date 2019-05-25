@@ -1,5 +1,5 @@
 # Information Gathering API
-API for Information Gathering
+List of API for Information Gathering
 
 ## List API ##
 
