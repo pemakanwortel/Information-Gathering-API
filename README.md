@@ -18,7 +18,7 @@ API for Information Gathering
 Reverse IP
 
 ```bash
-$ curl https://api.hack.co.id/reserveip/?ip=8.8.8.8
+$ curl https://api.hack.co.id/reverseip/?ip=8.8.8.8
 ```
 
 DNS Record History
@@ -60,13 +60,13 @@ $ curl https://api.hack.co.id/netblocks/?domain=google.com
 Reverse NS
 
 ```bash
-$ curl https://api.hack.co.id/reservens/?ns=google.com
+$ curl https://api.hack.co.id/reversens/?ns=google.com
 ```
 
 Reverse MX
 
 ```bash
-$ curl https://api.hack.co.id/reservemx/?mx=mx.yandex.com
+$ curl https://api.hack.co.id/reversemx/?mx=mx.yandex.com
 ```
 
 ## Author
