@@ -10,8 +10,8 @@ API for Information Gathering
 - Response Headers 	
 - IP Geolocation 	  
 - IP Netblocks   	  
-- Reserve NS     	  
-- Reserve MX        
+- Reverse NS     	  
+- Reverse MX        
 
 ## Usage Example ##
 
@@ -57,13 +57,13 @@ IP Netblocks
 $ curl https://api.hack.co.id/netblocks/?domain=google.com
 ```
 
-Reserve NS
+Reverse NS
 
 ```bash
 $ curl https://api.hack.co.id/reservens/?ns=google.com
 ```
 
-Reserve MX
+Reverse MX
 
 ```bash
 $ curl https://api.hack.co.id/reservemx/?mx=mx.yandex.com
