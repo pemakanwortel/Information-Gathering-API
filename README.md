@@ -69,22 +69,49 @@ Reverse MX
 $ curl https://api.hack.co.id/reversemx/?mx=mx.yandex.com
 ```
 
-## Response Example ##
+## Response Example from Reverse IP ##
 
 ```json
 {
-"ip": "2607:f8b0:4007:80d::200e",
-"location": {
-"country": "US",
-"region": "California",
-"city": "Mountain View",
-"lat": 37.38605,
-"lng": -122.08385,
-"postalCode": "94041",
-"timezone": "-07:00",
-"geonameId": 5375481
-},
-"isp": "Google"
+   "current_page": "1",
+   "size": 7,
+   "result": [
+      {
+         "name": "engelmeier.info",
+         "first_seen": "1530492412",
+         "last_visit": "1532914202"
+      },
+      {
+         "name": "expired86.namebrightdns.com",
+         "first_seen": "1530911981",
+         "last_visit": "1532721797"
+      },
+      {
+         "name": "kathrynmcevoy.com",
+         "first_seen": "1530513133",
+         "last_visit": "1532933936"
+      },
+      {
+         "name": "trufidelabs.com",
+         "first_seen": "1530555136",
+         "last_visit": "1532978406"
+      },
+      {
+         "name": "tunnelguru.net",
+         "first_seen": "1530556835",
+         "last_visit": "1532978092"
+      },
+      {
+         "name": "www.tunnelguru.net",
+         "first_seen": "1530956327",
+         "last_visit": "1530956327"
+      },
+      {
+         "name": "zech.dyndns.org",
+         "first_seen": "1530575988",
+         "last_visit": "1532999862"
+      }
+   ]
 }
 ```
 
