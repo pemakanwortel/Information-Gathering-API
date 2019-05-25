@@ -1,4 +1,4 @@
-# Information Gatheri API
+# Information Gathering API
 API for Information Gathering
 
 ## List API ##
