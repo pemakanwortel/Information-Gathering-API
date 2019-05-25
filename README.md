@@ -4,7 +4,7 @@ API for Information Gathering
 ## List API ##
 
 - Reverse IP 		    
-- DNS History 		  
+- DNS Record History 		  
 - Subdomain check 	
 - DNS Lookup 		    
 - Response Headers 	
@@ -21,7 +21,7 @@ Reverse IP
 $ curl https://api.hack.co.id/reserveip/?ip=8.8.8.8
 ```
 
-DNS History
+DNS Record History
 
 ```bash
 $ curl https://api.hack.co.id/dnshistory/?domain=google.com
