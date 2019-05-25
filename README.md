@@ -54,13 +54,13 @@ $ curl https://api.hack.co.id/ipgeo/?domain=google.com
 IP Netblocks
 
 ```bash
-$ curl https://api.hack.co.id/netblocks/?domain=google.com
+$ curl https://api.hack.co.id/netblocks/?ip=8.8.8.8
 ```
 
 Reverse NS
 
 ```bash
-$ curl https://api.hack.co.id/reversens/?ns=google.com
+$ curl https://api.hack.co.id/reversens/?nameserver=ns1.google.com
 ```
 
 Reverse MX
