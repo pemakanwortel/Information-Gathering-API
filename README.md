@@ -3,15 +3,15 @@ API for Information Gathering
 
 ## List API ##
 
-- Reverse IP 		    : https://api.hack.co.id/reserveip/?ip=
-- DNS History 		  : https://api.hack.co.id/dnshistory/?domain=
-- Subdomain check 	: https://api.hack.co.id/subdomain/?domain=
-- DNS Lookup 		    : https://api.hack.co.id/dnslookup/?domain=
-- Response Headers 	: https://api.hack.co.id/header/?domain=
-- IP Geolocation 	  : https://api.hack.co.id/ipgeo/?domain=
-- IP Netblocks   	  : https://api.hack.co.id/netblocks/?domain=
-- Reserve NS     	  : https://api.hack.co.id/reservens/?ns=
-- Reserve MX        : https://api.hack.co.id/reservemx/?mx=
+- Reverse IP 		    
+- DNS History 		  
+- Subdomain check 	
+- DNS Lookup 		    
+- Response Headers 	
+- IP Geolocation 	  
+- IP Netblocks   	  
+- Reserve NS     	  
+- Reserve MX        
 
 ## Usage Example ##
 
