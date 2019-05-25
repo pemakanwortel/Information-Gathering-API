@@ -9,7 +9,6 @@ API for Information Gathering
 - DNS Lookup 		    : 
 - Response Headers 	: 
 - IP Geolocation 	  : 
-- Whois 			      : 
 
 ## Usage ##
 
