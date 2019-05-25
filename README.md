@@ -69,6 +69,25 @@ Reverse MX
 $ curl https://api.hack.co.id/reversemx/?mx=mx.yandex.com
 ```
 
+## Response Example ##
+
+```json
+{
+"ip": "2607:f8b0:4007:80d::200e",
+"location": {
+"country": "US",
+"region": "California",
+"city": "Mountain View",
+"lat": 37.38605,
+"lng": -122.08385,
+"postalCode": "94041",
+"timezone": "-07:00",
+"geonameId": 5375481
+},
+"isp": "Google"
+}
+```
+
 ## Author
 
 - [Teguh Aprianto](https://teguh.co)
