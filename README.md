@@ -3,13 +3,13 @@ API for Information Gathering
 
 ## List API ##
 
-- Reverse IP 		:
-- DNS History 		:
+- Reverse IP 		    :
+- DNS History 		  :
 - Subdomain check 	: 
-- DNS Lookup 		: 
+- DNS Lookup 		    : 
 - Response Headers 	: 
-- IP Geolocation 	: 
-- Whois 			: 
+- IP Geolocation 	  : 
+- Whois 			      : 
 
 ## Usage ##
 
