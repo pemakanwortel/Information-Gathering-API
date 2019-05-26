@@ -11,7 +11,11 @@ List of API for Information Gathering
 - IP Geolocation 	  
 - IP Netblocks   	  
 - Reverse NS     	  
-- Reverse MX        
+- Reverse MX  
+- SSL Checker
+- Website Scanner
+- IP Address Blacklist Checker
+- SPF Checker
 
 ## Usage Example ##
 
@@ -67,6 +71,30 @@ Reverse MX
 
 ```bash
 $ curl https://api.hack.co.id/reversemx/?mx=mx.yandex.com
+```
+
+SSL Checker
+
+```bash
+$ curl https://api.hack.co.id/ssl/?domain=google.com
+```
+
+Website Scanner
+
+```bash
+$ curl https://api.hack.co.id/web/?domain=google.com
+```
+
+IP Address Blacklist Checker
+
+```bash
+$ curl https://api.hack.co.id/blacklist/?ip=8.8.8.8
+```
+
+SPF Checker
+
+```bash
+$ curl https://api.hack.co.id/spf/?domain=google.com
 ```
 
 ## Response Example from Get HTTP Header ##
