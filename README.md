@@ -17,6 +17,7 @@ List of API for Information Gathering
 - IP Address Blacklist Checker
 - SPF Checker
 - Port Scanner
+- Website IPv6 Support Checker
 
 ## Usage Example ##
 
@@ -102,6 +103,12 @@ Port Scanner
 
 ```bash
 $ curl https://api.hack.co.id/port/?ip=8.8.8.8&port=80
+```
+
+Website IPv6 Support Checker
+
+```bash
+$ curl https://api.hack.co.id/ipv6/?domain=google.com
 ```
 
 ## Response Example from Get HTTP Header ##
