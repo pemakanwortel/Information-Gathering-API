@@ -69,50 +69,40 @@ Reverse MX
 $ curl https://api.hack.co.id/reversemx/?mx=mx.yandex.com
 ```
 
-## Response Example from Reverse IP ##
+## Response Example from Get HTTP Header ##
 
 ```json
-{
-   "current_page": "1",
-   "size": 7,
-   "result": [
-      {
-         "name": "engelmeier.info",
-         "first_seen": "1530492412",
-         "last_visit": "1532914202"
-      },
-      {
-         "name": "expired86.namebrightdns.com",
-         "first_seen": "1530911981",
-         "last_visit": "1532721797"
-      },
-      {
-         "name": "kathrynmcevoy.com",
-         "first_seen": "1530513133",
-         "last_visit": "1532933936"
-      },
-      {
-         "name": "trufidelabs.com",
-         "first_seen": "1530555136",
-         "last_visit": "1532978406"
-      },
-      {
-         "name": "tunnelguru.net",
-         "first_seen": "1530556835",
-         "last_visit": "1532978092"
-      },
-      {
-         "name": "www.tunnelguru.net",
-         "first_seen": "1530956327",
-         "last_visit": "1530956327"
-      },
-      {
-         "name": "zech.dyndns.org",
-         "first_seen": "1530575988",
-         "last_visit": "1532999862"
-      }
-   ]
-}
+[
+  {
+    "statusCode": 301,
+    "statusMessage": "Moved Permanently",
+    "headers": {
+      "location": "http://www.google.com/",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Sun, 26 May 2019 20:00:36 GMT",
+      "expires": "Sun, 26 May 2019 20:00:36 GMT",
+      "cache-control": "private, max-age=2592000",
+      "server": "gws",
+      "content-length": "219",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "set-cookie": [
+        "CONSENT=WP.27a518; expires=Fri, 01-Jan-2038 00:00:00 GMT; path=/; domain=.google.com"
+      ],
+      "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+      "connection": "close"
+    },
+    "timingPhases": {
+      "wait": 0.4475460001267493,
+      "dns": 13.128208999987692,
+      "tcp": 1.9614629996940494,
+      "firstByte": 4.075387000106275,
+      "download": 0.27787999995052814,
+      "total": 19.890484999865294
+    },
+    "body": "<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>301 Moved</TITLE></HEAD><BODY>\n<H1>301 Moved</H1>\nThe document has moved\n<A HREF=\"http://www.google.com/\">here</A>.\r\n</BODY></HTML>\r\n"
+  }
+]
 ```
 
 ## Author
