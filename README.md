@@ -16,6 +16,7 @@ List of API for Information Gathering
 - Website Scanner
 - IP Address Blacklist Checker
 - SPF Checker
+- Port Scanner
 
 ## Usage Example ##
 
@@ -95,6 +96,12 @@ SPF Checker
 
 ```bash
 $ curl https://api.hack.co.id/spf/?domain=google.com
+```
+
+Port Scanner 
+
+```bash
+$ curl https://api.hack.co.id/port/?ip=8.8.8.8&port=80
 ```
 
 ## Response Example from Get HTTP Header ##
