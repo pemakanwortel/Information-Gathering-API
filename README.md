@@ -1,4 +1,4 @@
-# Information Gathering API
+# Information Gathering API [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 List of API for Information Gathering
 
 ## List API ##
