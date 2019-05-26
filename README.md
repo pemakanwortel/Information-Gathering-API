@@ -7,7 +7,7 @@ List of API for Information Gathering
 - DNS Record History 		  
 - Subdomain check 	
 - DNS Lookup 		    
-- Response Headers 	
+- Get HTTP Headers  	
 - IP Geolocation 	  
 - IP Netblocks   	  
 - Reverse NS     	  
@@ -39,7 +39,7 @@ DNS Lookup
 $ curl https://api.hack.co.id/dnslookup/?domain=google.com
 ```
 
-Response Header
+Get HTTP Headers 
 
 ```bash
 $ curl https://api.hack.co.id/header/?domain=google.com
