@@ -46,7 +46,7 @@ $ curl https://api.hack.co.id/dnslookup/?domain=google.com
 Get HTTP Headers 
 
 ```bash
-$ curl https://api.hack.co.id/header/?domain=google.com
+$ curl https://api.hack.co.id/header/?domain=https://google.com
 ```
 
 IP Geolocation
