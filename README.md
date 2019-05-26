@@ -5,7 +5,7 @@ List of API for Information Gathering
 
 - Reverse IP 		    
 - DNS Record History 		  
-- Subdomain check 	
+- Subdomain Checker 	
 - DNS Lookup 		    
 - Get HTTP Headers  	
 - IP Geolocation 	  
