@@ -113,6 +113,10 @@ $ curl https://api.hack.co.id/ipv6/?domain=google.com
 
 ## Response Example from Get HTTP Header ##
 
+```bash
+$ curl https://api.hack.co.id/header/?domain=https://google.com
+```
+
 ```json
 [
   {
